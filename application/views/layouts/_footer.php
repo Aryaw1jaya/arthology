@@ -1,4 +1,4 @@
-<footer class="footer mt-2" style="background-color: rgba(251,245,245,255);">
+<footer class="footer mt-4" style="background-color: rgba(251,245,245,255);">
 	<nav class="navbar navbar-dark sticky-bottom">
 		<div class="container d-flex justify-content-center">
 				<button class="btn-dark m-3" style="background-color: #3b200d;">SHOP</button>
@@ -14,7 +14,7 @@
 		</div>
 		<div class="container d-flex justify-content-center">
 			<div class="copyright text-info p-3">
-				<small class="p-3" style="color: rgba(59,32,13,255);">Copyright &copy; Arthology 2021</small>
+				<small class="p-3" style="color: rgba(59,32,13,255);">Copyright &copy; Arthology 2021 All reserved.</small>
 			</div>
 		</div>
 	</nav>	
