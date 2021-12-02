@@ -80,9 +80,21 @@
 						
 					<?php endif ?>
 				<?php else: ?>
-					<a style="color: rgba(59,32,13,255);" class="nav-item nav-link mr-3 active" href="<?= base_url('login') ?>">LOGIN</a>
-					<a style="color: rgba(59,32,13,255);" class="nav-item nav-link mr-3 active" href="<?= base_url('register') ?>">REGISTER</a>
+					<div style="color: rgba(59,32,13,255); padding: 10px 0px;" class="nav-item nav-link mr-3 active d-inline">
+						<form action="">
+							<input class="artho-search-box" style="margin: 0px;" type="text" placeholder="Cari disini">
+							<button type="submit" style="border: none; background: none;"><img class="artho-search" width="20px" src="<?= base_url('/assets/icon/search.png') ?>" alt=""></button>
+						</form>
+					</div>
+					<a style="color: rgba(59,32,13,255); padding: 10px 0px;" class="nav-item nav-link mr-3 active" href="<?= base_url('login') ?>">Login</a>
+					<a style="color: rgba(59,32,13,255); padding: 10px 0px;" class="nav-item nav-link mr-3 active" href="<?= base_url('login') ?>">Register</a>
 				<?php endif ?>
+				<style>
+					.artho-search-box{
+						border: 1px solid;
+						border-radius: 3px;
+					}
+				</style>
 			</div>
 		</div>
 	</div>
