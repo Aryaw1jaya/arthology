@@ -9,7 +9,7 @@
 					<br>
 					<p>Please pass payment with the following procedures:</p>
 					<ol>
-						<li>Make payment to the account <strong>BCA 0123456789</strong> An. Gaming Store</li>
+						<li>Make payment to the account <strong>BCA 0123456789</strong> An. Arthology</li>
 						<li>Include information with the order number <strong><?= $content['invoice'] ?></strong></li>
 						<li>Total payment <strong>Rp. <?= number_format($content['total'], 0, ',', '.') ?></strong></li>
 					</ol>

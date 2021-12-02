@@ -26,7 +26,7 @@
 					<div class="text-center text-info">
 						<small class="text-dark">If you need help or information, you can contact this.</small>
 						<br>
-						<small>aldoanugrah48@gmail.com | 081211680430</small>
+						<small>Raihan | 08123456789</small>
 					</div>
 
 					<?php if($order['status'] == 'waiting') : ?>
