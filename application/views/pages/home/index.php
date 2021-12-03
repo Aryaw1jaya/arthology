@@ -29,7 +29,7 @@
 <div class="container">
 	<div class="row mt-5">
 		<div class="col-lg-12">
-			<h3 class="head mb-5">Our Product</h3>
+			<h3 class="head mb-4">Our Product</h3>
 			<div class="col-lg-12">
 				<h4 class="mb-4">Shop  by Category</h4>
 				<div class="row">
