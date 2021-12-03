@@ -81,7 +81,7 @@
 					<?php endif ?>
 				<?php else: ?>
 					<a style="color: rgba(59,32,13,255); padding: 10px 0px;" class="nav-item nav-link mr-3 active" href="<?= base_url('login') ?>">Login</a>
-					<a style="color: rgba(59,32,13,255); padding: 10px 0px;" class="nav-item nav-link mr-3 active" href="<?= base_url('login') ?>">Register</a>
+					<a style="color: rgba(59,32,13,255); padding: 10px 0px;" class="nav-item nav-link mr-3 active" href="<?= base_url('register') ?>">Register</a>
 				<?php endif ?>
 			</div>
 		</div>
