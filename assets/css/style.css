@@ -52,3 +52,27 @@ hr {
    color: rgb(247, 161, 0) !important;
 }
 
+/** artho search**/
+.artho-search-box{
+   border: 1px solid;
+   border-radius: 3px;
+   width: 200px;
+   padding: 5px;
+}
+
+.artho-search-button{
+   padding: 5px 10px;
+   background: rgba(59,32,13,255);
+   border: 1px solid rgba(59,32,13,255);
+   border-radius: 5px;
+   color: white;
+   transition: 0.3s;
+}
+
+.artho-search-button:hover{
+   padding: 5px 10px;
+   background: transparent;
+   color: rgba(59,32,13,255);
+   transition: 0.3s;
+}
+

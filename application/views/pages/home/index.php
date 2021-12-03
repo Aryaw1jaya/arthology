@@ -29,14 +29,25 @@
 <div class="container">
 	<div class="row mt-5">
 		<div class="col-lg-12">
-			<h3 class="head mb-4">Our Product</h3>
-			<div class="col-lg-12">
-				<h4 class="mb-4">Shop  by Category</h4>
+			<div class="row mb-4">
+				<div class="col-lg-8" style="padding: 10px;">
+					<span class="head">Our Product</span>
+				</div>
+				<div class="col-lg-4 d-flex justify-content-end align-items-center">
+					
+						<form style="width: fit-content;" action="<?= base_url('/home/search_product') ?>" method="GET">
+							<input type="text" class="artho-search-box" name="search" placeholder="Cari produk disini...">
+							<input type="submit" class="artho-search-button" value="Cari">
+						</form>
+				</div>
+			</div>
+			<div class="col-lg-12" style="padding: 0px;">
+				<h4 class="mb-4">Shop by Category</h4>
 				<div class="row">
-					<div class="ml-3"><button class="btn-dark" style="background-color: #3b200d;"><i class="fas fa-ring"></i><br>Accessories</button></div>
-					<div class="ml-3"><button class="btn-dark" style="background-color: #3b200d;"><i class="fas fa-paint-brush"></i><br>Paintings</button></div>
-					<div class="ml-3"><button class="btn-dark" style="background-color: #3b200d;"><i class="fas fa-stamp"></i><br>Sculptures</button></div>
-					<div class="ml-3"><button class="btn-dark" style="background-color: #3b200d;"><i class="fas fa-couch"></i><br>Furniture</button></div>
+					<div class="ml-3"><a href="<?= base_url('/home/search_product?category=Accessories') ?>"><button class="btn-dark" style="background-color: #3b200d;"><i class="fas fa-ring"></i><br>Accessories</button></a></div>
+					<div class="ml-3"><a href="<?= base_url('/home/search_product?category=Paintings') ?>"><button class="btn-dark" style="background-color: #3b200d;"><i class="fas fa-paint-brush"></i><br>Paintings</button></a></div>
+					<div class="ml-3"><a href="<?= base_url('/home/search_product?category=Sculptures') ?>"><button class="btn-dark" style="background-color: #3b200d;"><i class="fas fa-stamp"></i><br>Sculptures</button></a></div>
+					<div class="ml-3"><a href="<?= base_url('/home/search_product?category=Furniture') ?>"><button class="btn-dark" style="background-color: #3b200d;"><i class="fas fa-couch"></i><br>Furniture</button></a></div>
 				</div>
 			</div>
 			<hr>

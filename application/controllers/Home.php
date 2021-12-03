@@ -26,6 +26,27 @@ class Home extends CI_Controller {
 		$this->load->view('layouts/app', $data);
 	}
 
+	/**
+	 * Search Product
+	 * 
+	 * Search product data by keyword
+	 */
+	public function search_product(){
+		if(array_key_exists('category', $_GET)){
+			$category = $_GET['category'];
+			$keyword = array_key_exists('search', $_GET) ? $_GET['search'] : '';
+
+			$data['products'] = $this->home->searchByCategory($category, $keyword);
+		}else{
+			$keyword = $_GET['search'] ?? '';
+			$data['products'] = $this->home->searchByTitle($keyword);
+		}
+
+		$data['title'] = 'Search Result';
+		$data['page'] = 'pages/home/search-results';
+		$this->load->view('layouts/app', $data);
+	}
+
 }
 
 /* End of file Home.php */
