@@ -12,12 +12,12 @@
 		</div>
         <div class="col-lg-4 d-flex justify-content-end align-items-center">
 				<form style="width: fit-content;" action="<?= base_url('/home/search_product') ?>" method="GET">
-					<input type="text" class="artho-search-box" name="search" placeholder="Cari produk disini...">
+					<input type="text" class="artho-search-box" name="search" placeholder="Find Product...">
                     <?php
 						if(array_key_exists('category', $_GET)){ ?>
 							<input type="text" name="category" readonly hidden value="<?= $_GET['category'] ?>">
                     <?php } ?>
-					<input type="submit" class="artho-search-button" value="Cari">
+					<input type="submit" class="artho-search-button" value="Search">
 				</form>
         </div>
 	</div>
