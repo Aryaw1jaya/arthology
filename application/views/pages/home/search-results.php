@@ -17,7 +17,7 @@
 						if(array_key_exists('category', $_GET)){ ?>
 							<input type="text" name="category" readonly hidden value="<?= $_GET['category'] ?>">
                     <?php } ?>
-					<input type="submit" class="artho-search-button" value="Search">
+					<input type="submit" class="artho-search-button btn-dark" value="Search" style="background-color: #3b200d;">
 				</form>
         </div>
 	</div>
